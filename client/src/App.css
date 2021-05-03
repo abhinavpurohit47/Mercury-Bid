@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+/*  background-color: #222;*/
+  height: 80px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  text-align: center;
+  font-size: large;
+}
+
+.label-center{
+  text-align: center;
+}
+
+.nav-bar {
+  background-color: transparent;
+  color: #1A1A1A;
+  padding: 5px 10px;
+}
+
+.user-banner {
+    background-color: #f7f7f9;
+    color: #2f6f9f;
+    padding-bottom: 20px;
+}
+
+#inputUsername{
+  margin-right: 10px;
+
+  }
+  #inputBid{
+    margin-right: 10px;
+    border: 0 ;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+  }
+
+  .rebid-input {
+        margin-left: 29%;
+    margin-top: 20px;
+  }
+
+  .product-detail-div {
+    background-color: #eee;
+    padding-top: 20px;
+    min-height: 800px;
+
+  }
+
+  .bid-detail-div {
+    background-color: white;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  .livestock-info {
+        align-content: centre;
+        text-transform: uppercase;
+        color: #1a1a1a;
+        justify-content: center; 
+  }
+
+  .bid-history-div {
+    margin-top: 20px;
+  }
+
+  .bid-history-header {
+        padding-left: 22%;
+        text-transform: uppercase;
+        font-weight: bold !important;
+  }
+
+  .livestock-info h5{
+    font-weight: bold !important;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    align-content: center;
+  }
+
+  .bid-history-list {
+          padding-right: 15%;
+  }
+
+  ul .list-group-item:nth-child(2) {  
+  font-weight: bold !important; 
+   animation: glow .5s infinite alternate;
+  }
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 9px;
+}
+
+.bid-submit-btn {
+      margin-top: 5%;
+}
+.bid-form {
+      padding-top: 10px;
+}
+
